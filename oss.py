@@ -17,7 +17,7 @@ def indent(elem, level=0):
             elem.tail = i
 
 def gambiarra_measuredobjects(tb: str) -> str:
-    if "NRCEllDU" in tb.upper():
+    if "NRCELLDU" in tb.upper():
         return "ManagedElement-GNBCUCPFunction-NRCellDU"
     elif "NRCELLCU" in tb.upper():
         return "ManagedElement-GNBCUCPFunction-NRCellCU"
@@ -26,7 +26,7 @@ def gambiarra_measuredobjects(tb: str) -> str:
     
 def gambiarra_descricao(tb,descricao: str) -> str:
     if descricao is None or descricao.strip() == "":
-        if "NRCEllDU" in tb.upper():
+        if "NRCELLDU" in tb.upper():
             return "ManagedElement-GNBCUCPFunction-NRCellDU"
         elif "NRCELLCU" in tb.upper():
             return "ManagedElement-GNBCUCPFunction-NRCellCU"
