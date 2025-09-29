@@ -968,16 +968,6 @@
         </regex>
       </operation>
     </item>
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
   </unit>
   <unit id="NRCELLCU_CAUSEGRPNGCAUSE">
     <item id="MEASOBJLDN">
@@ -1166,16 +1156,6 @@
           <newField>SUBNETWORK1</newField>
           <newField>SUBNETWORK2</newField>
           <newField>MECONTEXT</newField>
-        </regex>
-      </operation>
-    </item>
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
         </regex>
       </operation>
     </item>
@@ -10980,18 +10960,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTLOSSULTODISCQOS"/>
   <unit id="NRCELLDU_PMEBSNRLCDELAYTIMEDLQOS">
     <item id="SLICINGKEY">
@@ -11005,18 +10974,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPVOLULHDRPROF2ROHC5QI"/>
   <unit id="NRCELLDU_PMEBSNMACBLERDL256QAMDISTR">
     <item id="SLICINGKEY">
@@ -11102,18 +11060,7 @@
   <unit id="EP_NGU_PMEBSNPDCPPKTRECDLDISC5QI"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPVOLULCMPHDRPROF1ROHC5QI"/>
   <unit id="S1ULINK_PMEBSNPDCPPKTRECDLDISCQCI"/>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR"/>
   <unit id="NRCELLDU_PMEBSNMACBLERUL64QAMDISTR">
     <item id="SLICINGKEY">
       <operation type="applyRegex">
@@ -11126,18 +11073,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPVOLRECULQOS"/>
   <unit id="NRCELLCU_PMEBSDRBESTABATT5QI">
     <item id="SLICINGKEY">
@@ -11164,18 +11100,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTRECULQOS"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPVOLDLCMPHDRPROF1ROHC5QI"/>
   <unit id="NRCELLCU_PMEBSDRBRELNORMAL5QI">
@@ -11255,18 +11180,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLDISCROHC5QI"/>
   <unit id="NRCELLCU_PMEBSDRBRELABNORMALAMF5QI">
     <item id="SLICINGKEY">
@@ -11310,18 +11224,7 @@
     </item>
   </unit>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLPROF1ROHC5QI"/>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPRADIORESSWITCHDLSCGQOS"/>
   <unit id="NRCELLDU_PMEBSNMACBLERDL16QAMDISTR">
     <item id="SLICINGKEY">
@@ -11350,18 +11253,7 @@
     </item>
   </unit>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTRECULOOOQOS"/>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILULDISTR"/>
   <unit id="S1ULINK_PMEBSNPDCPPKTRECDLDISCAQMQCI"/>
   <unit id="S1ULINK_PMEBSNPDCPPKTRECDLQCI"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPVOLDLHDRPROF1ROHC5QI"/>
@@ -11394,18 +11286,7 @@
       </operation>
     </item>
   </unit>
-  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR">
-    <item id="SLICINGKEY">
-      <operation type="applyRegex">
-        <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-          <newField>MCC</newField>
-          <newField>MNC</newField>
-          <newField>SST</newField>
-          <newField>SD</newField>
-        </regex>
-      </operation>
-    </item>
-  </unit>
+  <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR"/>
   <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLDISCAQMQOS"/>
   <unit id="NRCELLCU_PMEBSDRBESTABSUCCINIT5QI">
     <item id="SLICINGKEY">
