@@ -11419,34 +11419,6 @@
                 </operation>
             </item>
         </unit>
-    <unit id="NRCELLDU">
-        <item id="NRCELLDU">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_SLC">
-        <item id="SLC">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLCU">
-        <item id="NRCELLCU">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLCU_SLC">
-        <item id="SLC">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
     <unit id="NRCELLDU_PMEBSNRLCDELAYTIMEDLQOS">
         <item id="PMEBSNRLCDELAYTIMEDLQOS">
             <operation compressed="True" type="splitMultiValue">
