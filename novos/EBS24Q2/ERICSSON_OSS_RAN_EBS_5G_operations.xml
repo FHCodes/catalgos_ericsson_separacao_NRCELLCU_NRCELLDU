@@ -9262,16 +9262,6 @@
                     </regex>
                 </operation>
             </item>
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
         </unit>
     <unit id="NRCELLCU_BG">
         <operation type="measurementPartition">
@@ -9585,16 +9575,6 @@
                     <newField>SUBNETWORK1</newField>
                     <newField>SUBNETWORK2</newField>
                     <newField>MECONTEXT</newField>
-                    </regex>
-                </operation>
-            </item>
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
                     </regex>
                 </operation>
             </item>
@@ -20086,126 +20066,16 @@
                 </operation>
             </item>
         </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULCASCELLPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR">
-        <item id="SLICINGKEY">
-            <operation type="applyRegex">
-                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
-                    <newField>MCC</newField>
-                    <newField>MNC</newField>
-                    <newField>SST</newField>
-                    <newField>SD</newField>
-                    </regex>
-                </operation>
-            </item>
-        </unit>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULCASCELLPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR"/>
+    <unit id="NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR"/>
     <unit id="NRCELLDU_PMEBSNMACBLERDL16QAMDISTR">
         <item id="SLICINGKEY">
             <operation type="applyRegex">
@@ -20374,6 +20244,66 @@
                 </operation>
             </item>
         </unit>
+    <unit id="NRCELLDU_SLC">
+        <item id="MEASOBJLDN">
+            <operation type="applyRegex">
+                <regex pattern="ManagedElement=(?P&lt;MANAGEDELEMENT&gt;[^,]+?),GNBDUFunction=(?P&lt;GNBDUFUNCTION&gt;[^,]+?),NRCellDU=(?P&lt;NRCELLDU&gt;[^,]+?)$">
+                    <newField>MANAGEDELEMENT</newField>
+                    <newField>GNBDUFUNCTION</newField>
+                    <newField>NRCELLDU</newField>
+                    </regex>
+                </operation>
+            </item>
+        <item id="LOCALDN">
+            <operation type="applyRegex">
+                <regex pattern="SubNetwork=(?P&lt;SUBNETWORK1&gt;.+?),(SubNetwork=(?P&lt;SUBNETWORK2&gt;.+?),)?MeContext=(?P&lt;MECONTEXT&gt;.+)">
+                    <newField>SUBNETWORK1</newField>
+                    <newField>SUBNETWORK2</newField>
+                    <newField>MECONTEXT</newField>
+                    </regex>
+                </operation>
+            </item>
+        <item id="SLICINGKEY">
+            <operation type="applyRegex">
+                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
+                    <newField>MCC</newField>
+                    <newField>MNC</newField>
+                    <newField>SST</newField>
+                    <newField>SD</newField>
+                    </regex>
+                </operation>
+            </item>
+        </unit>
+    <unit id="NRCELLCU_SLC">
+        <item id="MEASOBJLDN">
+            <operation type="applyRegex">
+                <regex pattern="ManagedElement=(?P&lt;MANAGEDELEMENT&gt;[^,]+?),GNBDUFunction=(?P&lt;GNBDUFUNCTION&gt;[^,]+?),NRCellDU=(?P&lt;NRCELLDU&gt;[^,]+?)$">
+                    <newField>MANAGEDELEMENT</newField>
+                    <newField>GNBDUFUNCTION</newField>
+                    <newField>NRCELLDU</newField>
+                    </regex>
+                </operation>
+            </item>
+        <item id="LOCALDN">
+            <operation type="applyRegex">
+                <regex pattern="SubNetwork=(?P&lt;SUBNETWORK1&gt;.+?),(SubNetwork=(?P&lt;SUBNETWORK2&gt;.+?),)?MeContext=(?P&lt;MECONTEXT&gt;.+)">
+                    <newField>SUBNETWORK1</newField>
+                    <newField>SUBNETWORK2</newField>
+                    <newField>MECONTEXT</newField>
+                    </regex>
+                </operation>
+            </item>
+        <item id="SLICINGKEY">
+            <operation type="applyRegex">
+                <regex pattern="(mcc(?P&lt;MCC&gt;[0-9]+))?_?(mnc(?P&lt;MNC&gt;[0-9]+))?_?(sst(?P&lt;SST&gt;[0-9]+))?_?(sd(?P&lt;SD&gt;[0-9]+))?">
+                    <newField>MCC</newField>
+                    <newField>MNC</newField>
+                    <newField>SST</newField>
+                    <newField>SD</newField>
+                    </regex>
+                </operation>
+            </item>
+        </unit>
     <unit id="PPCONTROLLINK_PMEBSPDCPIPFLOWDLPROF1ROHCDISTR"/>
     <unit id="PPCONTROLLINK_PMEBSPDCPIPFLOWDLPROF2ROHCDISTR"/>
     <unit id="RPUSERPLANELINK_PMEBSNPDCPPKTLOSSULPROF1ROHCDECMPFAIL5QI"/>
@@ -20415,34 +20345,6 @@
     <unit id="S1ULINK_PMEBSNPDCPPKTRECDLDISCAQMQCI"/>
     <unit id="S1ULINK_PMEBSNPDCPPKTRECDLDISCQCI"/>
     <unit id="S1ULINK_PMEBSNPDCPPKTRECDLQCI"/>
-    <unit id="NRCELLDU">
-        <item id="NRCELLDU">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLDU_SLC">
-        <item id="SLC">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLCU">
-        <item id="NRCELLCU">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
-    <unit id="NRCELLCU_SLC">
-        <item id="SLC">
-            <operation compressed="True" type="splitMultiValue">
-                <split delimiter=","/>
-                </operation>
-            </item>
-        </unit>
     <unit id="NRCELLDU_PMEBSNRLCDELAYTIMEDLQOS">
         <item id="PMEBSNRLCDELAYTIMEDLQOS">
             <operation compressed="True" type="splitMultiValue">

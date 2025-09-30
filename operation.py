@@ -140,8 +140,8 @@ processor = DataProcessor(pack, lista_inv_name)
 data_sources_list, data_sources_attr_list = processor.process_data()
 
 # caminho do arquivo existente
-input_file = "antigos/EBS24Q2/ERICSSON_OSS_RAN_EBS_5G_operations.xml"
-output_file = "novos/EBS24Q2/ERICSSON_OSS_RAN_EBS_5G_operations.xml"  # pode sobrescrever o mesmo ou salvar com outro nome
+input_file = "antigos/EBS23Q3/ERICSSON_OSS_RAN_EBS_5G_operations.xml"
+output_file = "novos/EBS23Q3/ERICSSON_OSS_RAN_EBS_5G_operations.xml"  # pode sobrescrever o mesmo ou salvar com outro nome
 
 # carrega o XML existente
 tree = etree.parse(input_file)

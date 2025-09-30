@@ -1179,25 +1179,6 @@
                             ]
                         }
                     ]
-                }, 
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
                 }
             ]
         }, 
@@ -1573,25 +1554,6 @@
                                         "SUBNETWORK1", 
                                         "SUBNETWORK2", 
                                         "MECONTEXT"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }, 
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
                                     ]
                                 }
                             ]
@@ -12024,28 +11986,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILULRESIDUALPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTLOSSULTODISCQOS"
@@ -12075,28 +12016,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILULPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPVOLULHDRPROF2ROHC5QI"
@@ -12282,28 +12202,7 @@
             "id": "S1ULINK_PMEBSNPDCPPKTRECDLDISCQCI"
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILULPRIORITYPARTITIONDISTR"
         }, 
         {
             "id": "NRCELLDU_PMEBSNMACBLERUL64QAMDISTR", 
@@ -12330,28 +12229,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLRESIDUALPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPVOLRECULQOS"
@@ -12408,28 +12286,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTRECULQOS"
@@ -12597,28 +12454,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLDISCROHC5QI"
@@ -12714,28 +12550,7 @@
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLPROF1ROHC5QI"
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLPRIORITYPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPRADIORESSWITCHDLSCGQOS"
@@ -12798,28 +12613,7 @@
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTRECULOOOQOS"
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILULDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILULDISTR"
         }, 
         {
             "id": "S1ULINK_PMEBSNPDCPPKTRECDLDISCAQMQCI"
@@ -12894,28 +12688,7 @@
             ]
         }, 
         {
-            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR", 
-            "measItems": [
-                {
-                    "id": "SLICINGKEY", 
-                    "operations": [
-                        {
-                            "type": "applyRegex", 
-                            "def": [
-                                {
-                                    "pattern": "(mcc(?P<MCC>[0-9]+))?_?(mnc(?P<MNC>[0-9]+))?_?(sst(?P<SST>[0-9]+))?_?(sd(?P<SD>[0-9]+))?", 
-                                    "newFields": [
-                                        "MCC", 
-                                        "MNC", 
-                                        "SST", 
-                                        "SD"
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "id": "NRCELLDU_PMEBSMACRBSYMUTILDLCASCELLPARTITIONDISTR"
         }, 
         {
             "id": "RPUSERPLANELINK_PMEBSNPDCPPKTTRANSDLDISCAQMQOS"

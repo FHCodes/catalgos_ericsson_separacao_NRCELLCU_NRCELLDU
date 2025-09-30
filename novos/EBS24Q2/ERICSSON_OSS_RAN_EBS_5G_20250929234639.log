@@ -1,0 +1,45 @@
+ _______  _______ _________ _______  _        _______  _______             _______  _       _________ ______   _______ _________ _______  _______
+(  ____ \(  ___  )\__   __/(  ___  )( \      (  ___  )(  ____ \  |\     /|(  ___  )( \      \__   __/(  __  \ (  ___  )\__   __/(  ___  )(  ____ )
+| (    \/| (   ) |   ) (   | (   ) || (      | (   ) || (    \/  | )   ( || (   ) || (         ) (   | (  \  )| (   ) |   ) (   | (   ) || (    )|
+| |      | (___) |   | |   | (___) || |      | |   | || |        | |   | || (___) || |         | |   | |   ) || (___) |   | |   | |   | || (____)|
+| |      |  ___  |   | |   |  ___  || |      | |   | || | ____   ( (   ) )|  ___  || |         | |   | |   | ||  ___  |   | |   | |   | ||     __)
+| |      | (   ) |   | |   | (   ) || |      | |   | || | \_  )   \ \_/ / | (   ) || |         | |   | |   ) || (   ) |   | |   | |   | || (\ (
+| (____/\| )   ( |   | |   | )   ( || (____/\| (___) || (___) |    \   /  | )   ( || (____/\___) (___| (__/  )| )   ( |   | |   | (___) || ) \ \__
+(_______/|/     \|   )_(   |/     \|(_______/(_______)(_______)     \_/   |/     \|(_______/\_______/(______/ |/     \|   )_(   (_______)|/   \__/
+
+2025-09-29 23:46:39,039 DEBUG: ####### START TIME: 2025.09.29 23:46:39 ########
+2025-09-29 23:46:44,619 DEBUG: ********** XSD VALIDATION TO CLIENT CATALOG **********
+2025-09-29 23:46:45,056 SUCCESS: Client Catalog is valid!
+2025-09-29 23:46:45,057 DEBUG: ********** XSD VALIDATION TO OSS CATALOG **********
+2025-09-29 23:46:45,247 SUCCESS: OSS Catalog is valid!
+2025-09-29 23:46:45,249 DEBUG: ********** XSD VALIDATION TO OPERATIONS CATALOG **********
+2025-09-29 23:46:45,273 SUCCESS: Operations Catalog is valid!
+2025-09-29 23:46:45,274 DEBUG: ********** COMPARE CLIENT AND OSS CATALOGS **********
+2025-09-29 23:46:45,344 SUCCESS: Success in comparison between Client and Oss
+2025-09-29 23:46:45,346 DEBUG: ********** COMPARE CLIENT AND OPERATIONS CATALOGS **********
+2025-09-29 23:46:45,348 SUCCESS: Success in comparison between Client and Operation
+2025-09-29 23:46:45,349 DEBUG: ********** PARTITION OF VALIDATION **********
+2025-09-29 23:46:45,350 SUCCESS: The field 'partition of' is valid
+2025-09-29 23:46:45,362 DEBUG: ********** CHECK FOR RESERVED WORDS **********
+2025-09-29 23:46:47,851 SUCCESS: There are no reserved words in catalog
+2025-09-29 23:46:47,852 DEBUG: ********** CHECK FOR INCONSISTENT TYPES DBN0/BDTYPE **********
+2025-09-29 23:46:47,892 SUCCESS: bdtype/dbn0type are consistent
+2025-09-29 23:46:47,893 DEBUG: ********** COMPARE BDTYPE AND TYPECUST **********
+2025-09-29 23:48:22,547 SUCCESS: bdtype/typeCust are consistent
+2025-09-29 23:48:22,548 DEBUG: ********** CHECK FOR INCONSISTENT TYPES CATALOG/DBN0TYPE **********
+2025-09-29 23:48:22,564 SUCCESS: catalog/dbn0type are consistent
+2025-09-29 23:48:22,565 DEBUG: ********** VALIDATE ENRICH TYPE **********
+2025-09-29 23:48:22,595 SUCCESS: The enrichment fields are well
+2025-09-29 23:48:22,596 DEBUG: ********** CHECK FOR CM/MT TYPE IN MO **********
+2025-09-29 23:48:22,643 SUCCESS: There is at least one CM/MT dbn0type in all units
+2025-09-29 23:48:22,644 DEBUG: ********** CHECK FOR PRIMARY KEY IN MO **********
+2025-09-29 23:48:22,663 SUCCESS: <PK> fields are correct
+2025-09-29 23:48:22,664 DEBUG: ********** CHECK FORBIDDEN CHARACTERS **********
+2025-09-29 23:48:27,866 SUCCESS: No forbidden characters found
+2025-09-29 23:48:27,868 DEBUG: ********** CHECK CONSISTENT IN THE NUMBER OF ATTRIBUTES **********
+2025-09-29 23:48:27,986 SUCCESS: The number of attributes is consistent
+2025-09-29 23:48:27,987 DEBUG: ********** CHECK RULES FOR ROOT OSSVERSION**********
+2025-09-29 23:48:27,988 SUCCESS: Root <ossversion> is valid
+2025-09-29 23:48:27,989 DEBUG: ********** CHECK RULES FOR ATTRIBUTE V IN OSS ITEM **********
+2025-09-29 23:48:28,069 SUCCESS: Attribute <v> is valid in all items
+2025-09-29 23:48:28,070 DEBUG: ####### END TIME: 2025.09.29 23:48:28 ########
